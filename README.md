@@ -1,27 +1,76 @@
-# React + TypeScript + Vite
+# Login Form - Desafio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💬 Sobre
 
-Currently, two official plugins are available:
+Esse projeto é um desafio de design proposto pela [Deway](https://www.deway.com.br
+ "Deway"). Formulário simples de login para uso em uma ferramenta ou plafatorma.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ☁ Demonstração
 
-## Expanding the ESLint configuration
+- Visualizar [Deway](https://mobile-login-form.vercel.app "Visualizar Login Form") em Produção.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 💻Tecnologias 
 
-- Configure the top-level `parserOptions` property like this:
+![React JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeSCript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## 📝 Como executar o projeto
+
+- Abra seu editor de código (Visual Studio Code) e siga os seguinte passos:
+
+```bash
+# Clonar repositório
+git clone https://github.com/LeonRWorker/mobile-login-form
+
+# Entrar na pasta do projeto
+cd mobile-login-form
+
+# Instalar dependências
+yarn
+
+# Executar o projeto
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🚀 Contribuição
+
+Seu interesse em contribuir para este projeto é muito bem-vindo! A contribuição da comunidade é o que torna esse projeto mais robusto e significativo. Se você é analista de sistemas, desenvolvedor ou apenas alguém apaixonado pela área, aqui estão algumas maneiras pelas quais você pode contribuir:
+
+### 💬 Relatando Problemas (Issues)
+
+Se você encontrar algum problema durante o uso do sistema ou tiver alguma sugestão de melhoria, por favor, abra uma issue. Certifique-se de fornecer detalhes suficientes para que possamos entender o problema e replicá-lo. Inclua etapas reproduzíveis, logs de erro (se aplicável) e o contexto do ambiente em que o problema ocorreu.
+
+### ⚡ Enviando Pull Requests (PRs)
+
+Se você deseja corrigir um bug ou implementar um novo recurso, ficaremos felizes em revisar sua solicitação de pull. Antes de enviar um PR, certifique-se de seguir essas etapas:
+
+### ⚡ Fork este repositório para o seu próprio perfil.
+
+```bash
+# Crie uma branch para suas alterações
+git sign-up-web -b feature/sua-feature ou git sign-up-web -b bugfix/seu-bug
+
+# Faça as alterações necessárias e commit
+git commit -m 'Descrição das alterações'.
+
+# Empurre as alterações para o seu repositório
+git push origin feature/sua-feature ou git push origin bugfix/seu-bug.
+```
+Abra um PR (pull request) neste repositório apontando para sua branch.
+Participando de Discussões
+Participe das discussões abertas nas issues e nos PRs. Suas ideias e opiniões são valiosas e ajudarão a melhorar o sistema.
+
+### 📝 Melhorando a Documentação
+
+Você pode ajudar a melhorar a documentação deste projeto. Se você acha que algo está faltando ou pode ser melhor explicado, fique à vontade para propor alterações.
+
+### 🚀 Compartilhando o Projeto
+
+Ajude a aumentar o impacto deste projeto compartilhando-o com seus colegas e em suas redes sociais. Quanto mais pessoas conhecerem e utilizarem este sistema, mais valiosas serão suas contribuições.
+
+Lembre-se de seguir o código de conduta do projeto durante todas as interações. Respeite os demais colaboradores e mantenha um ambiente amigável e inclusivo para todos.
+
+Agradecemos a todos que dedicam seu tempo para melhorar este projeto e torná-lo uma ferramenta cada vez melhor para a comunidade. Juntos, podemos fazer a diferença!
