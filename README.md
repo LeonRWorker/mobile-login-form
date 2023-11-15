@@ -7,7 +7,7 @@ Esse projeto é um desafio de design proposto pela [Deway](https://www.deway.com
 
 ## ☁ Demonstração
 
-- Visualizar [Deway](https://mobile-login-form.vercel.app "Visualizar Login Form") em Produção.
+- Visualizar [Login Form](https://mobile-login-form.vercel.app "Visualizar Login Form") em Produção.
 
 ## 💻Tecnologias 
 
