@@ -144,4 +144,17 @@ export const Container = styled.div`
       font-weight: 600;
     }
   }
+  @media (max-height: 667px) {
+    ${Content} {
+      width: 100%;
+      height: 100vh;
+      max-width: 100%;
+      border-radius: 0px;
+    }
+    ${Form} {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 0px;
+    }
+  }
 `
